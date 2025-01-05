@@ -7,10 +7,11 @@ $('.slider').slick({
 
 
   const images = document.querySelectorAll('.comp-img'); // Sélectionne toutes les div avec la classe "comp-img"
-
+  
   images.forEach(imgContainer => { // Pour chaque div
     const hideImage = imgContainer.querySelector('.hide'); // Trouve l'image cachée
     const visibleImage = imgContainer.querySelector('.visible'); // Trouve l'image visible
+    visibleImage.style.display = "none";
   
     // Quand la souris entre sur l'image
     imgContainer.addEventListener('mouseover', function() {
