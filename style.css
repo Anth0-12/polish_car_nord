@@ -49,6 +49,8 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    height: auto;
 }
 
 .slider {
@@ -221,7 +223,7 @@ footer {
 
 /*---------------- comparaison ----------------*/
 .grille {
-    height: 90vh;
+    height: auto;
     margin-top: 0 !important;
 }
 
