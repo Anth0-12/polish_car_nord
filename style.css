@@ -57,7 +57,7 @@ main {
     height: 90vh;
     width: 100%;
 
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .slider:hover {
     cursor: grab;
@@ -131,11 +131,11 @@ main {
     background-position: center;
     background-repeat: no-repeat;
 }
-
-.slick-prev:before,
+/* change the arrow color */
+/* .slick-prev:before,
 .slick-next:before {
-    color:rgb(255, 0, 0); /* change the arrow color */
-}
+    color:rgb(255, 0, 0); 
+} */
 
 .produit_lavage {
     height: 90vh;
